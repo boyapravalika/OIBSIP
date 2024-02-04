@@ -1,0 +1,208 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.logo{
+    width:100%;
+    height:100vh;
+
+    background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-image: url(pf1.jpg);
+}
+.tr{
+    margin-left:100px;
+    font-size: 30px;
+    color:salmon;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.list{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight:1000;
+    
+}
+ul{
+    display: flex;
+    margin-left: 700px;
+
+
+}
+ul li{
+    display:flex;
+    
+    margin-left: 70px;
+}
+ul li a{
+    text-decoration: none;
+    color:darkolivegreen;
+    transition: 0.1s ease-in-out;
+}
+ul li a:hover{
+    color:salmon;
+    transform: scale(1.6);
+}
+.text{
+    color:darkslategray;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    margin-left: 150px;
+    margin-top: 130px;
+}
+.tx{
+    margin-left: 150px;
+    margin-top:20px;
+    color:darkolivegreen;
+    font-size: 25px;
+}
+button{
+    margin-left: 160px;
+    margin-top: 15px;
+    transition: 0.1s ease-in-out;
+    background: darkslategray;
+
+}
+button :hover{
+    color:darkcyan;
+}
+button a{
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: aliceblue;
+}
+.img{
+    margin-left:900px;
+    margin-top: -300px;
+    transition: transform 0.1s ease-in-out;
+}
+.img:hover{
+  transform: scale(1.2);
+}
+.abt{
+   
+    margin-left: 650px;
+    font-size: 35px;
+    font-weight: bold;
+    color: salmon;
+}
+.abt2{
+    margin-left: 440px;
+    font-size: 28px;
+    margin-top: 20px;
+    color: darkolivegreen;
+}.abt3{
+   
+    margin-left: 650px;
+    font-size: 35px;
+    font-weight: bold;
+    color: salmon;
+}
+.abt4{
+    margin-left: 610px;
+    font-size: 28px;
+    margin-top: 20px;
+    color: darkolivegreen;
+}
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+
+
+
+
+h1 {
+  text-align: center;
+
+  font-size: 80px;
+}
+
+.skills-area {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20%;
+}
+
+.skill {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.skill-title {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.skill-bar {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.6);
+  height: 40px;
+  z-index: -1;
+  border-radius: 100px;
+  position: absolute;
+}
+
+.skill-fill {
+  background:darkslategray;
+  height: 40px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 30px;
+  overflow: hidden;
+}
+
+.skill-percent {
+  font-size: 30px;
+}
+
+.html {
+  animation: html 2s;
+  width: 50%;
+}
+
+.css {
+  animation: css 2s;
+  width: 80%;
+}
+
+.js {
+  animation: js 2s;
+  width: 70%;
+}
+
+@keyframes html {
+  from {
+    width: 0;
+  }
+  to {
+    width: 50%;
+  }
+}
+
+@keyframes css {
+  from {
+    width: 0;
+  }
+  to {
+    width: 80%;
+  }
+}
+
+@keyframes js {
+  from {
+    width: 0;
+  }
+  to {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .skills-area {
+    padding: 0 5%;
+  }
+}
+
